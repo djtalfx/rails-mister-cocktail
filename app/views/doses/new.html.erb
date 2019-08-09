@@ -1,2 +1,10 @@
 <h1>Doses#new</h1>
 <p>Find me in app/views/doses/new.html.erb</p>
+
+<h2><%= @cocktail.name %></h2>
+
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.input :description %>
+  <%= f.association :ingredient %>
+  <%= f.submit "add a review", class: "btn btn-primary" %>
+<% end %>
