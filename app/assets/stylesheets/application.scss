@@ -10,32 +10,10 @@
 
 // Your CSS partials
 @import "components/index";
+@import "components/banner";
+@import "components/navbar";
+@import "components/form";
 @import "pages/index";
 
 
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 120px 0;
-}
 
-.banner h1 {
-  font-size: 72px;
-  line-height: 1.2;
-  letter-spacing: 0.403em;
-  font-weight: 400;
-  font-style: italic;
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  text-align: center;
-
-
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
