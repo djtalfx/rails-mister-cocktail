@@ -2,6 +2,29 @@
   background-size: cover;
   background-position: center;
   padding: 120px 0;
+
+  /* application.self-e7dd16d8bd310c9cf1fc05fccc8d9af2227d63493544fc8c720934b3fa46c1d0.css | http://localhost:3000/assets/application.self-e7dd16d8bd310c9cf1fc05fccc8d9af2227d63493544fc8c720934b3fa46c1d0.css?body=1 */
+
+  a {
+    /* color: #167FFB; */
+    color: white;
+  }
+
+  body {
+    /* text-align: left; */
+    text-align: center;
+  }
+
+  /* Élément | http://localhost:3000/cocktails */
+
+  div.container:nth-child(1) > a:nth-child(3) {
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.214em;
+    font-weight: 100;
+    line-height: 1.4;
+  }
+
 }
 
 .banner h1 {
